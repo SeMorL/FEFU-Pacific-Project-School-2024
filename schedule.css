@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: local('MyriadPro'),
+    url(MYRIADPRO-REGULAR.OTF);
+}
+*{
+    font-size: 35px;
+    font-family: 'MyriadPro';
+}
+
+.head{
+    width: auto;
+    height: 250px;
+    background-image: url(images/img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+.main{
+    width: auto;
+    height: fit-content;
+    background-color: rgb(241, 237, 229);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cont{
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.button{
+    width: 80vw;
+    height: 90px;
+    border: none;
+    border-radius: 50px;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+}
+.schedule{
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+td{
+    height: 90px;
+    width: 60vw;
+    padding-left: 60px;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+.bottom_code{
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    height: 300px;
+    width: 90vw;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+}
+.bottom_right{
+    margin-top: 17px;
+    height: 300px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bottom_left{
+    height: 300px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tg{
+    height: 30px;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
