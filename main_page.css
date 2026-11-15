@@ -5,7 +5,7 @@ body {
 
 .cont{
     width: auto;
-    height: 1600px;
+    height: auto;
     background-image: url(images/img2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,16 +14,16 @@ body {
     justify-content: center;
 }
 .in_cont{
-    padding:10vh 0;
+    padding:5vh 0;
     width: 100vw;
-    height: 1000px;
+    height: 900px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .right{
     width: 50vw;
-    height: 800px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,4 +69,5 @@ body {
 *{
     color: white;
     font-family: 'MyriadPro';
+    text-decoration: none;
 }
